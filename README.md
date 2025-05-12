@@ -1,3 +1,9 @@
+J'ai choisi de refaire cette exercice d'Oclock pour illutrer ma pratique professionnelle pour la CP4. L'exercice était réalisé lors de la Saison 2, Episode 7.
+
+Crédit Oclock
+
+Voici l'énoncé original de l'exercice:
+
 # Trip O'dvisor :airplane:
 
 Salut jeune développeur. Il paraît que tu as des tripes ? Alors ce projet est fait pour toi !
