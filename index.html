@@ -22,7 +22,7 @@
             </a>
             <div class="menu">
               <a class="menu__item" href=""><i class="icon-heart"></i> Favoris</a>
-              <a class="menu__item" href=""><i class="icon-mail"></i> Newsletter</a>
+              <a id="newsletter__open" class="menu__item" href=""><i class="icon-mail"></i> Newsletter</a>
               <a class="menu__item" href=""><i class="icon-check-circle"></i> Avis</a>
               <button id="theme-switch" class="btn" type="button" aria-label="Changer le thème"><i class="icon-moon"></i></button>
               <div class="menu__color-switcher">
@@ -211,8 +211,8 @@
     </div>
   </main>
 
-  <aside class="newsletter">
-    <button class="newsletter__close btn" aria-label="Fermer" type="button">&Cross;</button>
+  <aside id="newsletter" class="newsletter newsletter--hidden">
+    <button id= "newsletter__close" class="newsletter__close btn" aria-label="Fermer" type="button">&Cross;</button>
     <h2 class="newsletter__title">Inscription à la newsletter</h2>
     <form>
       <input class="newsletter__field" type="email" required id="subscriber-email" placeholder="user@email.com" aria-label="Votre email">
@@ -225,5 +225,7 @@
       <p>Toute ressemblance avec d'autres contenus est purement fortuite.</p>
     </div>
   </footer>
+  <!-- J'ajoute ici un appel aux fichier des scripts javascript créés exprès -->
+  <script src="./js/newsletter.js"></script>
 </body>
 </html>
