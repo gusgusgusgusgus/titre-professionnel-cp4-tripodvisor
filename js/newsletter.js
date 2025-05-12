@@ -10,6 +10,12 @@ openNewsletter.addEventListener("click", (e) => {
   newsletter.classList.toggle("newsletter--hidden");
 });
 
+// Ajout d'un écouteur d'événement pour le scroll
+window.addEventListener("scroll", () => {if (window.scrollY>=300) {
+    console.log("Scroll d'au moins 300px");
+    newsletter.classList.remove("newsletter--hidden")
+}})
+
 // Ajout d'un écouteur d'événement pour le bouton de fermeture de la newsletter
 closeNewsletter.addEventListener("click", (e) => {
   e.preventDefault();
