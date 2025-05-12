@@ -10,7 +10,7 @@ openNewsletter.addEventListener("click", (e) => {
   newsletter.classList.toggle("newsletter--hidden");
 });
 
-// Ajout d'un écouteur d'événement pour le scroll
+// Ajout d'un écouteur d'événement pour le scroll pour faire apparaître la newsletter au delà de 300px de scroll
 window.addEventListener("scroll", () => {if (window.scrollY>=300) {
     console.log("Scroll d'au moins 300px");
     newsletter.classList.remove("newsletter--hidden")
